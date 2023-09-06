@@ -10,11 +10,11 @@ body {
 }
 
 *:focus {
-  outline: none;
+  outline: orange solid 2px;
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 button {
@@ -24,7 +24,8 @@ button {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: white;
 }
 
 footer button,
@@ -206,7 +207,7 @@ form {
 
 [aria-current="page"],
 .current {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid grey;
 }
 
 #important {
@@ -215,9 +216,9 @@ form {
 }
 
 #contact-info p {
-  font-size: 9px;
+  font-size: 18px;
 }
 
 #text {
-  color: white;
+  color: black;
 }

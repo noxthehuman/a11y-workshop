@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <title>Me contacter - Jean Do</title>
     <meta
@@ -9,6 +9,7 @@
     <meta
       name="keywords"
       content="photographie photographe environnement nature"
+      charset="UTF-8"
     />
     <meta name="author" content="Jean Do" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,10 +23,10 @@
       <div id="navigation">
         <ul>
           <li>
-            <a href="." aria-label="home"> Accueil </a>
+            <a href="." aria-label=""> Accueil </a>
           </li>
           <li>
-            <a href="./contact.html" aria-label="current" tabindex="2">
+            <a href="./contact.html" aria-label="page" tabindex="0">
               Contact
             </a>
           </li>
@@ -36,12 +37,12 @@
       <div id="modal" aria-label="contact-form">
         <h1 id="modal-title">Formulaire de contact</h1>
         <form onsubmit="toggleModal(event)">
-          <label> Votre nom: </label>
+          <label for="name"> Votre nom: </label>
           <input type="text" id="name" />
-          <label> Votre adresse électronique: </label>
-          <input type="email" id="email" tabindex="-1" />
+          <label for="email"> Votre adresse électronique: </label>
+          <input type="email" id="email" tabindex="0" />
           <label>Vous êtes... </label>
-          <select aria-label="are-you">
+          <select aria-label="Etes-vous">
             <option value="person">Un particulier</option>
             <option value="entity">Un organisme</option>
           </select>
@@ -51,9 +52,9 @@
         </form>
       </div>
 
-      <section id="contact-info" aria-labelledby="important">
+      <section id="contact-info" aria-label="Me Contacter">
         <p id="important">Me contacter</p>
-        <p>Mon numéro de téléphone: 0x xx xx xx xx</p>
+        <p>Mon numero de téléphone: 0x xx xx xx xx</p>
         <p>Mon adresse email: jean.do@hubvisory.com</p>
       </section>
 
@@ -63,7 +64,7 @@
     </div>
 
     <footer>
-      <p>Copyright Jean Do 2022. Tous droits réservés</p>
+      <p>Copyright Jean Do 2022. Tous droits reserves</p>
       <button aria-label="Twitter button">
         <i class="fa-brands fa-twitter fa-2x"></i>
       </button>
